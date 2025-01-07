@@ -61,7 +61,7 @@ $$ |  $$ | $$$$$$  |\$$$$$$  |$$ | \$$\ \$$$$$$  |  $$ |   $$ |  $$ |$$ |  $$ |
    """)
 
 ok.remove_command('help')
-token = "enter token here"
+token = "MTMxMDA3MzU3NDU1MTMyNjc3MQ.G82Snf.J-1ZYlv32-JFGXa-dRqNZ1FsWlzQNAh1qQwGTw"
 @ok.command(aliases=['help', 'h'])
 async def Help(ctx):
   await ctx.send("""**```yml
